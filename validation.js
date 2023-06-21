@@ -1,5 +1,5 @@
 let pincode = RegExp('^[0-9]{6}$');
-let input = "560047";
+let input = "A400048";
 
 try{
     if (pincode.test(input))
