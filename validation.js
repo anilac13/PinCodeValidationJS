@@ -1,5 +1,5 @@
-let pincode = RegExp('^[0-9]{6}$');
-let input = "400048B";
+let pincode = RegExp('^[0-9 ]{3}[ ]?[0-9]{3}$');
+let input = "400 048";
 
 try{
     if (pincode.test(input))
